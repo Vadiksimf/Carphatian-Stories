@@ -92,6 +92,12 @@ div#gallery-figure:hover figure:not(:hover) {
 #gallery-figure figure { width: 100%; }
 }
 
+/* END FEATURES FOR GALLERY*/
+
+#letter p {
+  text-indent: 2rem;
+}
+
     
     @media (max-width: 768px) {
       #showcase {
