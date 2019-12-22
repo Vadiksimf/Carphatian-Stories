@@ -1,5 +1,7 @@
 body {
-  margin-top: 105px; }
+  margin-top: 105px; 
+  overflow-x: hidden;
+}
 
 .navbar {
   box-shadow: 2px 2px 5px #2392a6;
@@ -73,7 +75,7 @@ div#gallery-figure figure {
   padding-bottom: 10px;
   transition: opacity .4s ease-in-out;
   display: inline-block;
-  column-break-inside: avoid;
+  break-inside: avoid-column;
 }
 
 div#gallery-figure figure img {
@@ -87,7 +89,7 @@ div#gallery-figure:hover figure:not(:hover) {
   opacity: 0.4;
 }
 
-@media screen and (max-width: 750px) { 
+@media screen and (max-width: 768px) { 
 #gallery-figures { column-gap: 0px; }
 #gallery-figure figure { width: 100%; }
 }
