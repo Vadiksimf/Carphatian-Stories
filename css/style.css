@@ -62,7 +62,7 @@ section:nth-of-type(2n+1) {
 }
 
 
-/* FEATURES FOR GALLERY*/
+/* FEATURES FOR GALLERY like Paintress*/
 #gallery-figure {
 column-width: 320px;
 column-gap: 15px;
@@ -97,6 +97,17 @@ div#gallery-figure:hover figure:not(:hover) {
 }
 
 /* END FEATURES FOR GALLERY*/
+
+/* Alogn IMG */
+.carousel-item {
+  height: 30em;
+}
+
+.carousel-item img {
+  display: block; 
+  margin: 0 auto;
+}
+/* Align END */
 
 #letter p {
   text-indent: 2rem;
