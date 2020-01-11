@@ -98,7 +98,7 @@ div#gallery-figure:hover figure:not(:hover) {
 
 /* END FEATURES FOR GALLERY*/
 
-/* Alogn IMG */
+/* Align IMG */
 .carousel-item {
   height: 30em;
 }
@@ -121,5 +121,9 @@ div#gallery-figure:hover figure:not(:hover) {
           font-size: 4rem; }
     
       .mb-resp {
-        margin-bottom: 1rem; } }
+        margin-bottom: 1rem; } 
+        .carousel-item {
+          height: 20em;
+        }
+      }
     
