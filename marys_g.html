@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Carpathian Stories</title>
+    <style>
+        /* The given screen size or smaller */
+
+        /* Large devices (desktops)*/
+
+        @media (max-width: 1559px) {
+            #showcase {
+  position: relative;
+  background: url("../img/CS.jpg");
+  min-height: 600px;
+  background-repeat: no-repeat;
+        }
+        #showcase .primary-overlay {
+    background: rgba(000, 000, 000, 0.8);
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+        }
+    </style>
+</head>
+<body id="home" data-spy="scroll" data-target="#main-nav">
+<!--NAVIGATOIN-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
+            <div class="container">
+        <a href="index.html" class="navbar-brand">
+            <img src="img/logo.png" alt="Our logo">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">About Project</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Participant's Progects</a> 
+            </li>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Video</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Our team</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+<!--OLD GALLERY 
+
+<section id="gallery" class="py-5">
+    <div class="container">
+        <h1 class="text-center text-primary">Memes Gallery</h1>
+        <p class="text-center">Check out our photos</p>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <a href="memes_g/mem1.jpg" data-toggle="lightbox" 
+                data-gallery="img-gallery" data-height="560" data-width="560">
+                    <img src="memes_g/mem1.jpg" alt="" class="img-fluid">
+                </a>
+                </div>
+                    <div class="col-md-4">
+                        <a href="memes_g/mem2.jpg" data-toggle="lightbox" 
+                        data-gallery="img-gallery" data-height="561" data-width="561">
+                            <img src="memes_g/mem2.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                <div class="col-md-4">
+                                <a href="memes_g/mem3.jpg" data-toggle="lightbox" 
+                                data-gallery="img-gallery" data-height="562" data-width="562">
+                                    <img src="memes_g/mem3.jpg" alt="" class="img-fluid">
+                                </a>
+                </div>  
+             
+        </div>
+
+        <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="memes_g/mem4.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="memes_g/mem4.jpg" alt="" class="img-fluid">
+                    </a>
+                    </div>
+                <div class="col-md-4">
+                            <a href="memes_g/mem5.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="memes_g/mem5.jpg" alt="" class="img-fluid">
+                            </a>
+                </div>
+                <div class="col-md-4">
+                                    <a href="memes_g/mem6.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="memes_g/mem6.jpg" alt="" class="img-fluid">
+                                    </a>
+                </div>                  
+            </div> 
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="memes_g/mem19.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="memes_g/mem19.jpg" alt="" class="img-fluid">
+                    </a>
+                    </div>
+                <div class="col-md-4">
+                            <a href="memes_g/mem20.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="memes_g/mem20.jpg" alt="" class="img-fluid">
+                            </a>
+                </div>
+                <div class="col-md-4">
+                                    <a href="memes_g/mem21.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="memes_g/mem21.jpg" alt="" class="img-fluid">
+                                    </a>
+                </div>                  
+            </div> 
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="memes_g/mem7.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="memes_g/mem7.jpg" alt="" class="img-fluid">
+                    </a>
+                    </div>
+                <div class="col-md-4">
+                            <a href="memes_g/mem8.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="memes_g/mem8.jpg" alt="" class="img-fluid">
+                            </a>
+                </div>
+                <div class="col-md-4">
+                                    <a href="memes_g/mem9.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="memes_g/mem9.jpg" alt="" class="img-fluid">
+                                    </a>
+                </div>                  
+            </div> 
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="memes_g/mem10.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="memes_g/mem10.jpg" alt="" class="img-fluid">
+                    </a>
+                    </div>
+                <div class="col-md-4">
+                            <a href="memes_g/mem11.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="memes_g/mem11.jpg" alt="" class="img-fluid">
+                            </a>
+                </div>
+                <div class="col-md-4">
+                                    <a href="memes_g/mem12.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="memes_g/mem12.jpg" alt="" class="img-fluid">
+                                    </a>
+                </div>                  
+            </div> 
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="memes_g/mem13.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="memes_g/mem13.jpg" alt="" class="img-fluid">
+                    </a>
+                    </div>
+                <div class="col-md-4">
+                            <a href="memes_g/mem14.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="memes_g/mem14.jpg" alt="" class="img-fluid">
+                            </a>
+                </div>
+                <div class="col-md-4">
+                                    <a href="memes_g/mem15.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="memes_g/mem15.jpg" alt="" class="img-fluid">
+                                    </a>
+                </div>                  
+            </div> 
+
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <a href="memes_g/mem16.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="memes_g/mem16.jpg" alt="" class="img-fluid">
+                    </a>
+                    </div>
+                <div class="col-md-4">
+                            <a href="memes_g/mem17.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="memes_g/mem17.jpg" alt="" class="img-fluid">
+                            </a>
+                </div>
+                <div class="col-md-4">
+                                    <a href="memes_g/mem18.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="memes_g/mem18.jpg" alt="" class="img-fluid">
+                                    </a>
+                </div>                  
+            </div> 
+    </div>
+    <div class="container">
+        <a href="index.html"><h1 class="text-center text-primary">Back Home</h1></a>
+        </div> 
+</section>
+-->
+
+
+<!--PHOTO GALLERY-->
+<section id="gallery" class="py-5">
+    <div class="container">
+        <h1 class="text-center text-primary">Full Gallery</h1>
+        <p class="text-center">Check out Marys photos</p>
+        <div id="gallery-figure">
+            <figure>
+                <a href="mary_full_g/pic1.jpg" data-toggle="lightbox" 
+                data-gallery="img-gallery" data-height="560" data-width="560">
+                    <img src="mary_full_g/pic1.jpg" alt="" class="img-fluid">
+                </a>
+                </figure>
+                    <figure>
+                        <a href="mary_full_g/pic2.jpg" data-toggle="lightbox" 
+                        data-gallery="img-gallery" data-height="561" data-width="561">
+                            <img src="mary_full_g/pic2.jpg" alt="" class="img-fluid">
+                        </a>
+                    </figure>
+                <figure>
+                                <a href="mary_full_g/pic3.jpg" data-toggle="lightbox" 
+                                data-gallery="img-gallery" data-height="562" data-width="562">
+                                    <img src="mary_full_g/pic3.jpg" alt="" class="img-fluid">
+                                </a>
+                </figure>  
+             
+                <figure>
+                    <a href="mary_full_g/pic4.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="mary_full_g/pic4.jpg" alt="" class="img-fluid">
+                    </a>
+                    </figure>
+                <figure>
+                            <a href="mary_full_g/pic5.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="mary_full_g/pic5.jpg" alt="" class="img-fluid">
+                            </a>
+                </figure>
+                <figure>
+                                    <a href="mary_full_g/pic6.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="mary_full_g/pic6.jpg" alt="" class="img-fluid">
+                                    </a>
+                </figure>                  
+                <figure>
+                    <a href="mary_full_g/pic19.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="mary_full_g/pic19.jpg" alt="" class="img-fluid">
+                    </a>
+                    </figure>
+                <figure>
+                            <a href="mary_full_g/pic20.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="mary_full_g/pic20.jpg" alt="" class="img-fluid">
+                            </a>
+                </figure>
+                <figure>
+                                    <a href="mary_full_g/pic21.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="mary_full_g/pic21.jpg" alt="" class="img-fluid">
+                                    </a>
+                </figure>                  
+                <figure>
+                    <a href="mary_full_g/pic7.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="mary_full_g/pic7.jpg" alt="" class="img-fluid">
+                    </a>
+                    </figure>
+                <figure>
+                            <a href="mary_full_g/pic8.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="mary_full_g/pic8.jpg" alt="" class="img-fluid">
+                            </a>
+                </figure>
+                <figure>
+                                    <a href="mary_full_g/pic9.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="mary_full_g/pic9.jpg" alt="" class="img-fluid">
+                                    </a>
+                </figure>                  
+                <figure>
+                    <a href="mary_full_g/pic10.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="mary_full_g/pic10.jpg" alt="" class="img-fluid">
+                    </a>
+                    </figure>
+                <figure>
+                            <a href="mary_full_g/pic11.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="mary_full_g/pic11.jpg" alt="" class="img-fluid">
+                            </a>
+                </figure>
+                <figure>
+                                    <a href="mary_full_g/pic12.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="mary_full_g/pic12.jpg" alt="" class="img-fluid">
+                                    </a>
+                </figure>                  
+                <figure>
+                    <a href="mary_full_g/pic13.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="mary_full_g/pic13.jpg" alt="" class="img-fluid">
+                    </a>
+                    </figure>
+                <figure>
+                            <a href="mary_full_g/pic14.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="mary_full_g/pic14.jpg" alt="" class="img-fluid">
+                            </a>
+                </figure>
+                <figure>
+                                    <a href="mary_full_g/pic15.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="mary_full_g/pic15.jpg" alt="" class="img-fluid">
+                                    </a>
+                </figure>                  
+                <figure>
+                    <a href="mary_full_g/pic16.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="563" data-width="563">
+                        <img src="mary_full_g/pic16.jpg" alt="" class="img-fluid">
+                    </a>
+                    </figure>
+                <figure>
+                            <a href="mary_full_g/pic17.jpg" data-toggle="lightbox" 
+                            data-gallery="img-gallery" data-height="564" data-width="564">
+                                <img src="mary_full_g/pic17.jpg" alt="" class="img-fluid">
+                            </a>
+                </figure>
+                <figure>
+                                    <a href="mary_full_g/pic18.jpg" data-toggle="lightbox" 
+                                    data-gallery="img-gallery" data-height="565" data-width="565">
+                                        <img src="mary_full_g/pic18.jpg" alt="" class="img-fluid">
+                                    </a>
+                </figure>  
+                <figure>
+                    <a href="mary_full_g/pic19.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="565" data-width="565">
+                        <img src="mary_full_g/pic19.jpg" alt="" class="img-fluid">
+                    </a>
+                </figure>  
+                <figure>
+                    <a href="mary_full_g/pic20.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="565" data-width="565">
+                        <img src="mary_full_g/pic20.jpg" alt="" class="img-fluid">
+                    </a>
+                </figure>  
+                <figure>
+                    <a href="mary_full_g/pic21.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="565" data-width="565">
+                        <img src="mary_full_g/pic21.jpg" alt="" class="img-fluid">
+                    </a>
+                </figure>  
+                <figure>
+                    <a href="mary_full_g/pic22.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="565" data-width="565">
+                        <img src="mary_full_g/pic22.jpg" alt="" class="img-fluid">
+                    </a>
+                </figure>  
+                <figure>
+                    <a href="mary_full_g/pic23.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="565" data-width="565">
+                        <img src="mary_full_g/pic23.jpg" alt="" class="img-fluid">
+                    </a>
+                </figure>  
+                <figure>
+                    <a href="mary_full_g/pic24.jpg" data-toggle="lightbox" 
+                    data-gallery="img-gallery" data-height="565" data-width="565">
+                        <img src="mary_full_g/pic24.jpg" alt="" class="img-fluid">
+                    </a>
+                </figure>  
+                </div>                
+    </div>
+    <div class="container">
+        <a href="index.html"><h1 class="text-center text-primary">Back Home</h1></a>
+        </div> 
+</section>
+
+<!--FOOTER-->
+<footer id="main-footer" class="py-5 bg-primary text-white">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-6 ml-auto">
+                <p class="lead">
+                    Copyright &copy; <span id="year"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+   
+    <script>
+    $("#year").text(new Date().getFullYear());
+
+    // Intitialize scroll-spy
+    $('body').scrollspy({target: 'main-nav'});
+
+    //Smooth scrolling
+    $("#main-nav a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+
+        const hash = this.hash;
+
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function () {
+
+          window.location.hash = hash;
+        });
+      }
+    });
+
+//GALLERY Lightbox
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+// Video Play
+$(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
+
+
+    </script>
+</body>
+</html>
