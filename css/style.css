@@ -115,6 +115,10 @@ div#gallery-figure:hover figure:not(:hover) {
   text-indent: 2rem;
 }
 
+#video {
+  height: 30em;
+}
+
     
     @media (max-width: 768px) {
       #showcase {
@@ -131,6 +135,9 @@ div#gallery-figure:hover figure:not(:hover) {
         }
         .carousel-item img {
           height: 100%;
+        }
+        #video {
+          height: 20em;
         }
       }
     
