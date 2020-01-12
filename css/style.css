@@ -119,6 +119,16 @@ div#gallery-figure:hover figure:not(:hover) {
   height: 30em;
 }
 
+/* fix of anchor padding*/
+
+#about, #gallery, #video-play, #authors {
+	border-top: 100px solid transparent;
+	margin-top: -100px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+
     
     @media (max-width: 768px) {
       #showcase {
