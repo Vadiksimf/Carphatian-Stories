@@ -109,7 +109,7 @@ div#gallery-figure:hover figure:not(:hover) {
   margin: 0 auto;
   height: 100%;
 }
-/* Align END */
+/* Align IMG END */
 
 #letter p {
   text-indent: 2rem;
@@ -141,11 +141,16 @@ div#gallery-figure:hover figure:not(:hover) {
         margin-bottom: 1rem; } 
       
       .carousel-item {
-          height: 20em;
+          height: 18em;
         }
         .carousel-item img {
           height: 100%;
         }
+
+        .mps .carousel-item img {
+          width: 100;
+        }
+
         #video {
           height: 20em;
         }
