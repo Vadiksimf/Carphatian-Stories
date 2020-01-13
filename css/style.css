@@ -147,12 +147,13 @@ div#gallery-figure:hover figure:not(:hover) {
           height: 100%;
         }
 
-        .mps .carousel-item img {
-          width: 100%;
-        }
-
         #video {
           height: 20em;
+        }
+
+        body {
+          margin-right: 0;
+          padding-right: 0;
         }
       }
     
