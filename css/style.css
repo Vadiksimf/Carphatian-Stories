@@ -1,15 +1,23 @@
 body {
   margin-top: 105px; 
   overflow-x: hidden;
+  max-width:100%;
 }
 
 .navbar {
   box-shadow: 2px 2px 5px #2392a6;
   opacity: 0.9;
-  background: white; }
-  .navbar .nav-item {
-    font-size: 1rem;
-    padding-right: 1rem; }
+  background: white; 
+  margin-right: 0px;
+}
+
+.navbar {
+  max-width:100%;
+}
+
+.navbar .nav-item {
+  font-size: 1rem;
+  padding-right: 1rem; }
 
 .navbar img{
   max-width: 100px;
@@ -131,6 +139,10 @@ div#gallery-figure:hover figure:not(:hover) {
 
     
     @media (max-width: 768px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
       #showcase {
         min-height: 500px; }
       
@@ -151,9 +163,25 @@ div#gallery-figure:hover figure:not(:hover) {
           height: 20em;
         }
 
-        body {
-          margin-right: 0;
-          padding-right: 0;
-        }
+
       }
-    
+  /* The given screen size or smaller */
+
+        /* Large devices (desktops)*/
+
+        @media (max-width: 1559px) {
+          #showcase {
+position: relative;
+background: url("../img/CS.jpg");
+min-height: 600px;
+background-repeat: no-repeat;
+      }
+      #showcase .primary-overlay {
+  background: rgba(000, 000, 000, 0.8);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+      }   
