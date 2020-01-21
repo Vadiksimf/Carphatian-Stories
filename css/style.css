@@ -51,13 +51,21 @@ section:nth-of-type(2n+1) {
   margin: auto;
   border-bottom: 1px #ddd solid; }
 
+/*Team section*/
+
 #authors img {
   margin-top: -50px; }
+
 #authors .card:hover {
   background: #2392a6;
   color: white; }
+
 #authors .card:hover .fab  {
   color: #fff; }
+
+.fa-instagram {
+  color: orangered;
+  }  
 
 #row2 {
   justify-content: center;
@@ -71,12 +79,10 @@ section:nth-of-type(2n+1) {
 
 #main-footer {
   background-color: rgb(22,27,41) !important;
-  opacity: 0.2;
+  opacity: 0.9;
 }
 
-.fa-instagram {
-  color: orangered;
-}
+
 
 /* FEATURES FOR GALLERY like Paintress*/
 #gallery-figure {
