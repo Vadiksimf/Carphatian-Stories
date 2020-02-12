@@ -53,6 +53,17 @@ section:nth-of-type(2n+1) {
 
 /*Team section*/
 
+#authors .col-lg-3 {
+  margin-top: 50px;
+}
+
+.leaders {
+  justify-content: center;
+  border-top: 50px solid transparent;
+  margin-top: -100px;
+  
+}
+
 #authors img {
   margin-top: -50px; }
 
@@ -103,7 +114,8 @@ div#gallery-figure figure {
 }
 
 div#gallery-figure figure img {
-  width: 100%; height: auto;
+  width: 100%; 
+  height: auto;
   border-bottom: 1px solid #ccc;
   padding-bottom: 15px;
   margin-bottom: 5px;
@@ -155,6 +167,7 @@ div#gallery-figure:hover figure:not(:hover) {
   #showcase .primary-overlay {
     display: none;
   }
+
   #about #idea {
     display: block;
   }  
@@ -186,9 +199,10 @@ div#gallery-figure:hover figure:not(:hover) {
           height: 20em;
         }
 
-       /* #about #idea {
-          display: none;
-        }*/
+       #about #idea {
+          display: block;
+        }
+
         #showcase {
           display: none;
         }
