@@ -132,7 +132,7 @@ div#gallery-figure:hover figure:not(:hover) {
 
 /* END FEATURES FOR GALLERY*/
 
-/* Align IMG */
+/* Align IMG in carousel */
 .carousel-item {
   height: 30em;
 }
@@ -142,6 +142,7 @@ div#gallery-figure:hover figure:not(:hover) {
   margin: 0 auto;
   height: 100%;
 }
+
 /* Align IMG END */
 
 #letter p {
