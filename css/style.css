@@ -223,4 +223,12 @@ div#gallery-figure:hover figure:not(:hover) {
             height: 100%; }
         }
 
+
+/* Footer copyright */
+
+.maded-by {
+  display: inline-block;
+  align-items: center;
+}
+
           
