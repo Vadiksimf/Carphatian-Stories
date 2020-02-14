@@ -179,6 +179,16 @@ div#gallery-figure:hover figure:not(:hover) {
   } 
     
     @media (max-width: 768px) {
+
+      .objectives {
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .objectives p {
+        max-width: 100%;
+      }      
+
       h1 {
         font-size: 2rem;
       }
